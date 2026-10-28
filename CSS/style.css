@@ -1,0 +1,224 @@
+:root {
+  --background-color: #050505;
+  --bg-card: #111111;
+  --text-primary: #ffffff;
+  --text-secondary: #e8e8e8;
+  --borders: #333333;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-primary);
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.start {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.start h1 {
+  font-size: 50px;
+  color: var(--text-primary);
+  font-family: "Playwrite AR Guides", cursive;
+  margin-bottom: 1px;
+}
+
+.start p {
+  margin-top: 0;
+}
+
+.barra nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--borders);
+  margin-left: 2vw;
+}
+
+.nav-cards {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-cards a {
+  color: var(--text-primary);
+  border: 1px solid var(--borders);
+  background-color: var(--bg-card);
+  border-radius: 5px;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.nav-cards a:hover {
+  background-color: var(--text-primary);
+  color: var(--background-color);
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.left-nav .logo-text {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin-left: 0px;
+}
+
+.about-me {
+  margin-top: 50px;
+  margin-left: 5vw;
+}
+
+.knowledge {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 50px;
+  margin-left: 5vw;
+}
+
+.knowledge-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.knowledge-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  width: 100px;
+  background-color: var(--bg-card);
+  border: 1px solid var(--borders);
+  border-radius: 10px;
+}
+
+.knowledge-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 0px;
+}
+
+.knowledge-card p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 50px;
+  margin-left: 5vw;
+}
+
+.projects-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 15px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  width: 700px;
+  background-color: var(--bg-card);
+  border: 1px solid var(--borders);
+  border-radius: 10px;
+}
+
+.project-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.project-card h4 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.project-card p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 50px;
+  margin-left: 5vw;
+}
+.contact-button {
+  margin-top: 0px;
+  color: var(--text-primary);
+  border: 1px solid var(--borders);
+  background-color: var(--bg-card);
+  border-radius: 5px;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  background-color: var(--text-primary);
+  color: var(--background-color);
+}
+
+.contact p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contact h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  border-top: 1px solid var(--borders);
+}
