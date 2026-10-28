@@ -222,3 +222,222 @@ body {
   padding: 20px;
   border-top: 1px solid var(--borders);
 }
+
+
+@media (max-width: 700px) {
+  .barra nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0 5%;
+  }
+
+  .left-nav {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+
+  .left-nav .logo-text {
+    font-size: 17px;
+  }
+
+  .nav-cards {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .nav-cards a {
+    padding: 9px 12px;
+    font-size: 14px;
+  }
+
+  .start {
+    margin: 35px 5% 0;
+  }
+
+  .start h1 {
+    font-size: clamp(28px, 7vw, 42px);
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+  }
+
+  .about-me,
+  .knowledge,
+  .projects,
+  .contact {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .about-me {
+    width: 90%;
+    margin-top: 40px;
+  }
+
+  .knowledge,
+  .projects,
+  .contact {
+    width: 90%;
+    margin-top: 40px;
+  }
+
+  .about-me p,
+  .contact p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .knowledge-cards {
+    gap: 10px;
+    width: 100%;
+  }
+
+  .knowledge-card {
+    width: 115px;
+    padding: 12px;
+  }
+
+  .knowledge-logo {
+    width: 75px;
+    height: 75px;
+  }
+
+  .knowledge-card p {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .projects-cards {
+    width: 100%;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 100%;
+    gap: 12px;
+    padding: 14px;
+  }
+
+  .project-logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .project-card h4 {
+    font-size: 18px;
+  }
+
+  .project-card p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .project-info {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .contact h2 {
+    font-size: 20px;
+  }
+
+  .contact-button {
+    padding: 10px 15px;
+  }
+
+  .footer {
+    margin-top: 40px;
+    padding: 20px 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .barra {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .left-nav .logo-text {
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .nav-cards {
+    gap: 6px;
+  }
+
+  .nav-cards a {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+  .start {
+    margin-top: 30px;
+  }
+
+  .start h1 {
+    font-size: 29px;
+  }
+
+  .about-me,
+  .knowledge,
+  .projects,
+  .contact {
+    width: 90%;
+    margin-top: 35px;
+  }
+
+  .knowledge-cards {
+    gap: 10px;
+  }
+
+  .knowledge-card {
+    width: calc(50% - 5px);
+    padding: 10px;
+  }
+
+  .knowledge-logo {
+    width: 65px;
+    height: 65px;
+  }
+
+  .knowledge-card p {
+    font-size: 15px;
+  }
+
+  .project-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px;
+  }
+
+  .project-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .project-card h4 {
+    font-size: 17px;
+  }
+
+  .project-card p {
+    font-size: 14px;
+  }
+
+  .contact-button {
+    max-width: 100%;
+  }
+}
